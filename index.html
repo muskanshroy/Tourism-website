@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conten t="width=device-width, initial-scale=1.0">
+    <title>The Star Adventure - Adventure Sports in Kullu Manali</title>
+
+    <!-- Main Stylesheet for whole website -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Importing Roboto Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Internal CSS for use in the current page only */
+        /* CSS for Homepage */
+        #hero-section {
+            background: url(/img/Hero1.jpg);
+            background-size: cover;
+            padding: 200px 0;
+        }
+
+        #hero-section h1 {
+            color: #0d436b;
+            font-size: 40px;
+        }
+
+        #hero-section p {
+            color: inherit;
+            font-size: 20px;
+            margin: 10px 0 15px;
+        }
+
+        #services,
+        #testimonials,
+        #footer-row {
+            padding: 50px 0;
+        }
+
+    
+
+        .adventure {
+            width: 100%;
+            text-align: center;
+            height: 250px;
+            background-size: cover !important;
+            position: relative;
+            transition: .5s;
+        }
+
+        #rafting {
+            background: linear-gradient(var(--color1), var(--color2)),
+                url(/img/rafting.jpg);
+        }
+
+        #paragliding {
+            background: linear-gradient(var(--color1), var(--color2)),
+                url(/img/paragliding.jpg);
+        }
+
+        #trekking {
+            background: linear-gradient(var(--color1), var(--color2)), url(/img/trekking.jpg);
+        }
+
+        .adventure h3 {
+            position: absolute;
+            bottom: 25px;
+            left: 30px;
+            color: white;
+            transition: .5s;
+        }
+
+        .adventure:hover>h3 {
+            bottom: 35px;
+
+        }
+
+        .testimonial {
+            background: #f3f3f3 url(/img/quote2.png) no-repeat;
+            background-size: 50px;
+            background-position: 90% 20%;
+            border-radius: 5px;
+            padding: 30px;
+        }
+
+        .testimonial .rounded-img {
+            border-radius: 100%;
+            overflow: hidden;
+            width: 100px;
+            height: 100px;
+        }
+
+        .testimonial .rounded-img img {
+            width: 100%;
+        }
+
+        .testimonial .testimonial-text {
+            margin: 20px 0;
+        }
+
+        .testimonial .testimonial-name {
+            color: rgb(114, 114, 114);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container display-flex">
+
+            <div>
+                <a href="#"><img class="logo" src="/img/logo.png" alt=""></a>
+            </div>
+
+            <div id="main-menu" class="display-flex">
+                <a href="index.html">Home</a>
+                <a href="rafting.html">Rafting</a>
+                <a href="paragliding.html">Paragliding</a>
+                <a href="trekking.html">Trekking</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="hero-section">
+        <div class="container">
+            <h1>Book your adventure with us</h1>
+            <p>You must go on adventure to find out where you truely belong</p>
+            <a href="#" class="button">Book your adventure</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 class="section-heading">Our Services</h2>
+
+
+            <div class="display-grid">
+                <a href="rafting.html" class="adventure" id="rafting">
+                    <h3>Rafting</h3>
+                </a>
+                <a href="paragliding.html" class="adventure" id="paragliding">
+                    <h3>Paragliding</h3>
+                </a>
+                <a href="trekking.html" class="adventure" id="trekking">
+                    <h3>Trekking</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-heading">Testimonials</h2>
+
+            <div class="display-grid grid-2">
+
+                <div class="testimonial">
+                    <div class="rounded-img">
+                        <img src="/img/man.jpg" alt="">
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        officia animi possimus praesentium perspiciatis harum voluptatum aliquam, dignissimos
+                        perferendis esse?</p>
+                    <p class="testimonial-name">Rohit Kashyap, Rajasthan</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="rounded-img">
+                        <img src="/img/man.jpg" alt="">
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        officia animi possimus praesentium perspiciatis harum voluptatum aliquam, dignissimos
+                        perferendis esse?</p>
+                    <p class="testimonial-name">Rohit Kashyap, Rajasthan</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="rounded-img">
+                        <img src="/img/man.jpg" alt="">
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        officia animi possimus praesentium perspiciatis harum voluptatum aliquam, dignissimos
+                        perferendis esse?</p>
+                    <p class="testimonial-name">Rohit Kashyap, Rajasthan</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="rounded-img">
+                        <img src="/img/man.jpg" alt="">
+                    </div>
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        officia animi possimus praesentium perspiciatis harum voluptatum aliquam, dignissimos
+                        perferendis esse?</p>
+                    <p class="testimonial-name">Rohit Kashyap, Rajasthan</p>
+                </div>
+
+
+            </div>
+    </section>
+
+    <section id="call-to-action">
+        <div class="container display-flex">
+            <h2>Ready for your adventure</h2>
+            <a href="#" class="button">Book an Adventure now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-row">
+            <div class="container display-flex">
+
+                <div class="footer-widgets">
+                    <a href="#"><img class="logo" src="/img/logo.png" alt=""></a>
+
+                    <p>Adventure Sports activities in Kullu - Manali, Himachal Pradesh</p>
+                </div>
+
+                <div class="footer-widgets">
+                    <h3 class="widget-title">Adventures</h3>
+                    <ul>
+                        <li><a href="rafting.html">Rafting</a></li>
+                        <li><a href="paragliding.html">Paragliding</a></li>
+                        <li><a href="trekking.html">Trekking</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-widgets">
+                    <h3 class="widget-title">Other Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="bottom-bar">
+            <div class="container">
+                <p>&copy; The Star Adventures | Developed by <a href="#">Muskan</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

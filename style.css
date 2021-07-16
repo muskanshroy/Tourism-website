@@ -1,0 +1,55 @@
+/* Secondary Stylesheet */
+
+
+.page-title-section {
+    padding: 80px 0;
+    background: #165d94;
+    color: white;
+}
+
+.page-title-section h1 {
+    font-size: 30px;
+}
+
+
+.page-title-section a {
+    color: white;
+    font-weight: bold;
+}
+
+.page-title-section p,
+.page-title-section span {
+    margin: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.column {
+    flex: 1;
+}
+
+.column2 img {
+    width: 100%;
+}
+
+.column1 {
+    padding: 20px 40px 20px 0;
+}
+
+#service-plans .column {
+    padding: 40px 40px;
+    margin-right: 20px;
+    background: cornflowerblue;
+}
+
+#service-plans .column p {
+    margin: 15px 0;
+}
+
+#long-stretch {
+    margin-right: 0;
+}

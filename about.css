@@ -1,0 +1,26 @@
+.testimonial {
+    background: #f3f3f3 url(/img/quote2.png) no-repeat;
+    background-size: 50px;
+    background-position: 90% 20%;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.testimonial .rounded-img {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial .rounded-img img {
+    width: 100%;
+}
+
+.testimonial .testimonial-text {
+    margin: 20px 0;
+}
+
+.testimonial .testimonial-name {
+    color: rgb(114, 114, 114);
+}
